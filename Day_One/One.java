@@ -8,8 +8,6 @@ public class One{
           myFrame.setTitle("This is a text");
           myFrame.setResizable(false);
           myFrame.setLocation(500,200);
-          
-         
-         
+                   
      }
 }
