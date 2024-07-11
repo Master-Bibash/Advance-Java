@@ -8,6 +8,10 @@ class one {
     public static void main(String[] args) throws IOException {
         try {
             InetAddress address = InetAddress.getByName("www.example.com");
+            System.out.println("  ----------------  ");
+            System.out.println(address);
+
+            //Check if the host is reachable
             boolean isRacable = address.isReachable(1);
             System.out.println("is reachle is " + isRacable);
 
