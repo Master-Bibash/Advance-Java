@@ -23,6 +23,7 @@ class URLConnection {
             br.close();
 
         } catch (Exception e) {
+            e.getStackTrace();
         }
 
     }
