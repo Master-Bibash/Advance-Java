@@ -13,6 +13,7 @@ class Two {
             }
             System.out.println("get ip address is " + address.getAddress());
         } catch (Exception e) {
+            System.out.println("error is " + e.getMessage());
             System.out.println("");
         }
     }
